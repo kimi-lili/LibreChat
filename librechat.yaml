@@ -1,0 +1,10 @@
+version: "1.3.13"
+
+cache: true
+
+mcpServers:
+  tinyfish:
+    type: "sse"
+    url: "https://mcp.tinyfish.ai/sse"
+    headers:
+      Authorization: "Bearer ${TINYFISH_API_KEY}"
